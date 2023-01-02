@@ -1,3 +1,26 @@
-h1 {
-  color: red;
+@import url("config.css");
+
+
+
+/* Header section */
+header{
+  background-image: url("../img/blob.png");
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  height: 650px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/* Navigation bar */
+nav .nav-link:hover{
+  color: var(--title-color);
+}
+nav .navbar-brand:hover{
+  color: var(--primary);
+}
+a.btn{
+  padding: 5px 20px;
+  box-shadow: 0 0 5px rgba(106, 0, 255, 0.736);
 }

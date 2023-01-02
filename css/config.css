@@ -1,0 +1,67 @@
+/* font import */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* init variables */
+:root{
+    --primary: #6C00FF !important;
+    --secondary: #3C79F5 !important;
+    --title-color: #18181b !important;
+    --text-color: #27272a !important;
+    --background: #f8fafc !important;
+}
+
+/* init */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--theme);
+}
+
+/* colors */
+.color-primary,a.color-primary{
+    color: var(--primary);
+}
+.color-secondary,a.color-secondary{
+    color: var(--secondary);
+}
+.text-color,a.text-color{
+    color: var(--text-color);
+}
+.title-color,a.title-color{
+    color: var(--title-color);
+}
+
+/* bg colors */
+.bg-primary,a.bg-primary{
+    background-color: var(--primary) !important;
+}
+.bg-secondary,a.bg-secondary{
+    background-color: var(--secondary) !important;
+}
+
+/* sizes */
+.size-12,a.size-12{
+    font-size: 12px;
+}
+.size-14,a.size-14{
+    font-size: 14px;
+}
+.size-16,a.size-16{
+    font-size: 16px;
+}
+.size-18,a.size-18{
+    font-size: 18px;
+}
+.size-20,a.size-20{
+    font-size: 20px;
+}
+.size-22,a.size-22{
+    font-size: 22px;
+}
+.size-24,a.size-24{
+    font-size: 24px;
+}
